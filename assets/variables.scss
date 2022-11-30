@@ -1,0 +1,44 @@
+$backgroundColor:#FDFDFD;
+$backgroundCardColor:#FFFFFF;
+$grayColor: #EEF2FA;
+$orangeColor: #F15929;
+$almostBlackColor: #212121;
+$lightGrayColor: #8A8A8E;
+$lightOrangeColor:  #FFF0D9;
+
+.theme--light.v-btn.v-btn--has-bg {
+    color: $almostBlackColor !important;
+}
+.v-application--is-ltr .v-card__actions > .v-btn.v-btn + .v-btn {
+    color: $orangeColor !important;
+}
+.v-card__title {
+    color: $almostBlackColor !important;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none !important;
+  appearance: textfield;
+  margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield !important;
+    appearance: textfield;
+  }
+  input[type="number"]:hover,
+  input[type="number"]:focus {
+    -moz-appearance: number-input !important;
+    appearance: textfield;
+  }
+  input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  appearance: textfield;
+  margin: 0;
+}
+
+* {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
